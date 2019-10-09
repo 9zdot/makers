@@ -1,0 +1,80 @@
+{
+  "name": "makers-dash",
+  "version": "1.0.0",
+  "description": "Material Dashboard React.",
+  "private": false,
+  "main": "dist/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
+    "@material-ui/core": "*",
+    "@material-ui/icons": "*",
+    "@types/googlemaps": "*",
+    "@types/markerclustererplus": "*",
+    "ajv": "*",
+    "assets": "*",
+    "chartist": "*",
+    "classnames": "*",
+    "moment": "^2.24.0",
+    "mongodb-stitch-browser-sdk": "^4.5.0",
+    "mqtt-react": "^0.0.3",
+    "npm-run-all": "*",
+    "perfect-scrollbar": "*",
+    "react": "*",
+    "react-chartist": "*",
+    "react-dom": "*",
+    "react-google-maps": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "react-swipeable-views": "*",
+    "underscore": "^1.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "build-package": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9zdot/makersdash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "optionalDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-plugin-import-rename": "*",
+    "babel-plugin-module-resolver": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-plugin-transform-react-jsx": "*",
+    "babel-preset-es2015": "*",
+    "local-ip-url": "^1.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
