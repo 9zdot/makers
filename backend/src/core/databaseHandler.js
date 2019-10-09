@@ -27,7 +27,7 @@ class databaseHandler {
 
     _getNextIndex(sensorID){
         let idx = this.db.prepare('SELECT counter, first FROM "index" WHERE sensor=?').get(sensorID)
-        if (++idx.counter > 5 ) {
+        if (++idx.counter > 50 ) {
             idx.counter = 1;
             idx.first = 1;
         }

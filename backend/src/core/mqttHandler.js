@@ -6,7 +6,7 @@ class mqttHandler {
 
   constructor() {
     this.mqttClient = null;
-    this.host = 'http://192.168.0.10:1883';
+    this.host = 'http://makerspi.local:1883';
     this.topic = "makers";
   }
 

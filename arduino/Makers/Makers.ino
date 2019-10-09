@@ -18,12 +18,12 @@ DHT dht(DHTPIN, DHTTYPE);
 #define SMOKE A0
 
 // WiFi
-const char* ssid = "9z.";
-const char* wifi_password = "1wISEcASE1936";
+const char* ssid = "######"; //<------- PLEASE CHANGE!!!!!
+const char* wifi_password = "######"; //<------- PLEASE CHANGE!!!!!
 
-//change for ESP lolin
+//Set true for ESP lolin
 const boolean isLolin = false; //<------- PLEASE CHANGE!!!!!
-//Change for each ESP8266
+//Increment for each ESP8266
 const int clientNumber = 1; //<------- PLEASE CHANGE!!!!!
 // MQTT
 const char* mqtt_server = "makerpi.local";
