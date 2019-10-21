@@ -119,7 +119,7 @@ class ComplexCard extends React.Component {
                                         <FontAwesomeIcon icon={faSquare} color="dimgray" transform="grow-2"/>
                                         <FontAwesomeIcon icon={faFireAlt} inverse />
                                     </span>
-                                    {data && data.gas ? data.gas : "NA"}
+                                    {data && data.gas ? "1" : "0"}
                                 </span>
                             </GridItem>
                         </GridContainer>

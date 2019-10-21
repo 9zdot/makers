@@ -39,7 +39,7 @@ class App extends React.Component {
     const DataHandler = subscribe({topic: 'makers'})(_DataHandler);
 
     return (
-    <Connector mqttProps="ws://192.168.0.10:9001">
+    <Connector mqttProps="ws://192.168.0.100:9001">
       <div className={classes.makerdash}>
          <DataHandler />
         <div className={classes.footerApp}>

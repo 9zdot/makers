@@ -102,3 +102,7 @@ public
 
 #vscode
 .vscode
+nodered/settings/.config.json.backup
+/arduino/Makers/build
+/nodered/settings/.config.json.backup
+package-lock.json
